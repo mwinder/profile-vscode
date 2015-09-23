@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.fontSize": 15,
+	
+	"files.exclude": {
+		"**/bin/": true,
+		"**/obj/": true,
+		"**/node_modules/": true,
+		"**/packages/": true,
+		"**/.vs/": true,
+		"**/.user": true
+	}
+}
