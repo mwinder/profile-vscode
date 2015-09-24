@@ -1,0 +1,46 @@
+{
+	// Place your snippets for C# here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	"Constructor" : {
+		"prefix": "ctor",
+		"body": [
+			"public ${id}()",
+			"{",
+			"	$1",
+			"}"
+		]
+	},
+	
+	"Public void method" : {
+		"prefix": "pv",
+		"body": [
+			"public void ${Name}(){",
+			"	$1",
+			"}"
+		]
+	},
+	
+	// Logging
+	"Create logger (NLog)": {
+		"prefix": "logger",
+		"body": [
+			"private static readonly ILogger Log = LogManager.GetCurrentClassLogger();"
+		],
+		"description": "Create a logger"
+	},
+	"Log message": {
+		"prefix": "log",
+		"body": [
+			"Log.${level}(\"${message}\");"
+		],
+		"description": "Write a log message"
+	},
+	"Log exception": {
+		"prefix": "loge",
+		"body": [
+			"Log.Error(${exception}, \"${message}\");"
+		],
+		"description": "Write an error message"
+	}
+}

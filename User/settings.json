@@ -8,6 +8,7 @@
 		"**/node_modules/": true,
 		"**/packages/": true,
 		"**/.vs/": true,
-		"**/.user": true
+		"**/*.suo": true,
+		"**/*.user": true
 	}
 }

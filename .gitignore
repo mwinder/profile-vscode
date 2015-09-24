@@ -1,5 +1,9 @@
+databases/
 GPUCache/
+IndexedDB/
 Local Storage/
 Cookies
 Cookies-journal
+QuotaManager
+QuotaManager-journal
 storage.json
