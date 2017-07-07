@@ -1,9 +1,11 @@
-databases/
+Backups/
+Cache/
+CachedData/
 GPUCache/
-IndexedDB/
 Local Storage/
 Cookies
 Cookies-journal
+Preferences
 QuotaManager
 QuotaManager-journal
 storage.json
