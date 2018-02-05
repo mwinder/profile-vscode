@@ -1,13 +1,16 @@
 // Place your settings in this file to overwrite the default settings
 {
 	"editor.fontSize": 18,
-	
+	"editor.renderWhitespace": "all",
+	"explorer.confirmDelete": false,
 	"files.exclude": {
 		"**/obj/": true,
+		"**/bin/": true,
 		"**/node_modules/": true,
 		"**/packages/": true,
 		"**/.vs/": true,
 		"**/*.suo": true,
 		"**/*.user": true
-	}
+	},
+	"terminal.integrated.shell.windows": "bash.exe"
 }
