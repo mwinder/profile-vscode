@@ -3,6 +3,8 @@
 	"editor.fontSize": 18,
 	"editor.renderWhitespace": "all",
 	"editor.codeLens": false,
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.shell.windows": "bash.exe",
 	"explorer.confirmDragAndDrop": false,
 	"explorer.confirmDelete": false,
 	"files.exclude": {
@@ -13,6 +15,5 @@
 		"**/.vs/": true,
 		"**/*.suo": true,
 		"**/*.user": true
-	},
-	"terminal.integrated.shell.windows": "bash.exe"
+	}
 }
