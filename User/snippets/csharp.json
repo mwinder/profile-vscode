@@ -5,9 +5,9 @@
 	"Constructor" : {
 		"prefix": "ctor",
 		"body": [
-			"public ${id}()",
+			"public ${1:id}()",
 			"{",
-			"	$1",
+			"    $2",
 			"}"
 		]
 	},
@@ -15,9 +15,49 @@
 	"Public void method" : {
 		"prefix": "pv",
 		"body": [
-			"public void ${Name}(){",
-			"	$1",
+			"public void ${1:Name}()",
+			"{",
+			"    $2",
 			"}"
+		]
+	},
+
+	// Testing
+	"test-nunit": {
+		"prefix": "test",
+		"description": "Nunit test",
+		"body": [
+			"[Test]",
+			"public void ${1:Name}()",
+			"{",
+			"    $2",
+			"}"
+		]
+	},	
+	"assert-nunit": {
+		"prefix": "assert",
+		"description": "Nunit assertion",
+		"body": [
+			"Assert.That(${1:actual}, Is.${2:expected});"
+		]
+	},
+	
+	"test-xunit": {
+		"prefix": "fact",
+		"description": "Xunit test",
+		"body": [
+			"[Fact]",
+			"public void ${1:Name}()",
+			"{",
+			"    $2",
+			"}"
+		]
+	},	
+	"assert-xunit": {
+		"prefix": "assert",
+		"description": "Xunit assertion",
+		"body": [
+			"Assert.Equal(${1:expected}, ${2:actual});"
 		]
 	},
 	
