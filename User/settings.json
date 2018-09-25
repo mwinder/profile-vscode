@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-	"editor.fontSize": 18,
+	"editor.fontSize": 16,
 	"editor.renderWhitespace": "all",
 	"editor.codeLens": false,
 	"terminal.integrated.fontSize": 16,
