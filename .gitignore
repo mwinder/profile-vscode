@@ -6,8 +6,11 @@ GPUCache/
 Local Storage/
 logs/
 User/workspaceStorage/
+User/globalStorage/
 Cookies
 Cookies-journal
 machineid
+Network Persistent State
 Preferences
+rapid_render.json
 storage.json
