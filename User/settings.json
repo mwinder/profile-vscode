@@ -15,5 +15,6 @@
 		"**/*.user": true
 	},
 	"terminal.integrated.fontSize": 15,
-	"terminal.integrated.shell.windows": "bash.exe"
+	"terminal.integrated.shell.windows": "bash.exe",
+	"workbench.iconTheme": "vscode-icons"
 }
