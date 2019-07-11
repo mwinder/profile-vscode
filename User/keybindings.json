@@ -11,5 +11,13 @@
 	{
 		"key": "ctrl+shift+r",
 		"command": "workbench.action.tasks.runTask"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "workbench.action.files.saveAll"
+	},
+	{
+		"key": "ctrl+k s",
+		"command": "-workbench.action.files.saveAll"
 	}
 ]
