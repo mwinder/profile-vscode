@@ -1,8 +1,9 @@
 // Place your settings in this file to overwrite the default settings
 {
 	"editor.fontSize": 16,
-	"editor.renderWhitespace": "all",
 	"editor.codeLens": false,
+	"editor.renderWhitespace": "all",
+	"editor.minimap.enabled": false,
 	"explorer.confirmDragAndDrop": false,
 	"explorer.confirmDelete": false,
 	"files.exclude": {
@@ -14,6 +15,7 @@
 		"**/*.suo": true,
 		"**/*.user": true
 	},
+	"files.trimTrailingWhitespace": true,
 	"terminal.integrated.fontSize": 15,
 	"workbench.iconTheme": "vscode-icons"
 }
