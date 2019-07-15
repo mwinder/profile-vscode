@@ -18,5 +18,6 @@
 	"files.trimTrailingWhitespace": true,
 	"terminal.integrated.fontSize": 15,
 	"window.zoomLevel": 0,
-	"workbench.iconTheme": "vscode-icons"
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.startupEditor": "welcomePageInEmptyWorkbench"
 }
