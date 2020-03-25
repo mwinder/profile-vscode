@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-	"editor.fontSize": 16,
+	"editor.fontSize": 17,
 	"editor.codeLens": false,
 	"editor.renderWhitespace": "all",
 	"editor.minimap.enabled": false,
@@ -17,7 +17,16 @@
 	},
 	"files.trimTrailingWhitespace": true,
 	"terminal.integrated.fontSize": 15,
-	"window.zoomLevel": 0,
+	"window.zoomLevel": -0.8,
 	"workbench.iconTheme": "vscode-icons",
-	"workbench.startupEditor": "welcomePageInEmptyWorkbench"
+	"workbench.startupEditor": "welcomePageInEmptyWorkbench",
+	"vsicons.dontShowNewVersionMessage": true,
+	"mssql.connections": [
+		{
+			"server": "{{put-server-name-here}}",
+			"database": "{{put-database-name-here}}",
+			"user": "{{put-username-here}}",
+			"password": ""
+		}
+	]
 }

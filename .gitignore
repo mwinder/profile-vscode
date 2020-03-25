@@ -14,3 +14,6 @@ Network Persistent State
 Preferences
 rapid_render.json
 storage.json
+Code Cache/
+Session Storage/
+TransportSecurity
